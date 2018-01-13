@@ -1,26 +1,19 @@
-# Read Time
+# Reading Time
 
 An estimated read time [Twig](http://twig.sensiolabs.org/) filter for [Craft CMS](http://buildwithcraft.com/). This can be added to any field (that's data is a string), but it was designed with the rich text (Redactor) field in mind
 
-This plugin counts the words in a rich text field and returns the length of time it will take to read based on 200 words per minute.
+This plugin is a fork of [craft_readtime](https://github.com/ehousestudio/craft_readtime) by eHouse Studio with added support for japanese language.
 
 ## Installation
 
-1. Move `readtime` directory to `craft/plugins` directory
-2. Install `Read Time` under **Craft Admin &rsaquo; Settings &rsaquo; Plugins**
+1. Move `readingtime` directory to `craft/plugins` directory
+2. Install `Reading Time` under **Craft Admin &rsaquo; Settings &rsaquo; Plugins**
 
 ## Usage
 
 ```
-{{ entry.richTextField|readtime }}
+{{ entry.richTextField|readingtime }}
 ```
-
-## To-Do
--  Add support for [longform content](http://alistapart.com/blog/post/longform-content-with-craft-matrix) via Matrix field
-
-## Feedback?
-
-Contact us on Twitter: [@ehousestudio](https://twitter.com/ehousestudio)
 
 ## License
 

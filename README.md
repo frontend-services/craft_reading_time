@@ -1,6 +1,6 @@
 # Reading Time
 
-An estimated read time [Twig](http://twig.sensiolabs.org/) filter for [Craft CMS](http://buildwithcraft.com/). This can be added to any field (that's data is a string), but it was designed with the rich text (Redactor) field in mind
+An estimated read time [Twig](http://twig.sensiolabs.org/) filter for [Craft CMS](http://buildwithcraft.com/). This can be added to any field (that's data is a string) or string.
 
 This plugin is a fork of [craft_readtime](https://github.com/ehousestudio/craft_readtime) by eHouse Studio with added support for japanese language.
 
